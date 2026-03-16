@@ -9,6 +9,9 @@ on:
   issue_comment:
     types: [created]
 
+permissions:
+  pull-requests: write
+
 jobs:
   analyze_and_test:
     if: |
